@@ -221,38 +221,8 @@
       margin-top:25px;
       color:var(--green2);
     }
-
-    @media(max-width:760px) {
-      .sidebar {
-        position:relative;
-        width:100%;
-        padding:12px 14px;
-      }
-
-      .brand { margin-bottom:12px; }
-      .brand img { width:55px; height:55px; }
-      .brand strong { font-size:1.1rem; }
-      .brand small { font-size:.58rem; }
-      .side-bottom { display:none; }
-
-      nav {
-        display:flex;
-        overflow-x:auto;
-        gap:5px;
-      }
-
-      nav a {
-        white-space:nowrap;
-        padding:8px 10px;
-        font-size:.88rem;
-      }
-
-      main { margin-left:0; }
-      .page { padding:38px 20px; }
-      .form-grid { grid-template-columns:1fr; }
-      .full { grid-column:auto; }
-      .btn { width:100%; }
-    }
+ @media(max-width:760px){.sidebar{position:sticky;top:0;width:100%;height:auto;padding:10px 14px;display:block}.brand{margin:0;gap:10px}.brand img{width:62px;height:62px;flex-shrink:0}.brand strong{font-size:1.2rem;white-space:nowrap}.brand small{font-size:.58rem;white-space:nowrap;letter-spacing:.06em}.nav-label,.side-bottom{display:none}nav{display:flex;overflow-x:auto;gap:5px;padding-top:9px}nav a{white-space:nowrap;padding:8px 10px;font-size:.83rem}nav .num{display:none}main,footer{margin-left:0}section{padding:58px 22px}.hero{min-height:auto;grid-template-columns:1fr;padding-top:50px}.hero h1{font-size:3.4rem}.hero-price{min-height:180px}.hero-stamp{width:145px;height:145px;font-size:.82rem}.hero-stamp strong{font-size:1.65rem}.intro,.sale{grid-template-columns:1fr;gap:24px}.features{grid-template-columns:1fr}.section-head{display:block}.gallery{grid-template-columns:1fr 1fr;grid-template-rows:240px 170px 170px}.gallery figure:first-child{grid-column:span 2;grid-row:auto}.sale-photo img{height:420px}.price-card{right:-6px}.pay-options{grid-template-columns:1fr 1fr}footer{display:block}footer span{display:block;margin-bottom:8px}.instagram-link {margin-top: 8px;padding: 6px 8px;gap: 8px;}.instagram-link svg {width: 25px;height: 25px;}.instagram-link span {font-size: .85rem;}}
+   
     
 .success-message {
   display: none;
